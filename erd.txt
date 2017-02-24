@@ -1,0 +1,10 @@
+ERD TABLE
+
+
+_____________                     __________________
+|   houses   |                   |   characters      |
+|   id       |                   |    id            |
+  name       |                       name
+  characters                        house             |
+|            |                   |                   |
+|____________|                   |___________________|

@@ -1,0 +1,10 @@
+<h2><%= @character.name %></h2>
+<h2><%= link_to "Edit #{@character.house.name}", edit_house_path(@character.house)%></h2>
+
+<%= link_to "Edit Character", edit_character_path(@character)%>
+
+<%= link_to "Delete Character", character_path(@character), method: :delete %>
+
+<div class="character">
+
+</div>

@@ -1,0 +1,6 @@
+<h2>Characters!</h2>
+<%= @characters.each do |character| %>
+<div class = "Characters">
+<h2><%= link_to character.name, character %></h2>
+</div>
+<%end%>
